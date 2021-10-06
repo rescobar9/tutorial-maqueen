@@ -30,7 +30,7 @@ From the ``||Logic:Logic||`` section on the left side menu, drag a ``||Logic:if-
 ```blocks
 
 basic.forever(function () {
-    if (true) {
+    if (false && false) {
         if (true) {
         	
         }
@@ -41,21 +41,25 @@ basic.forever(function () {
 ```
 
 ## Step 4
-From the ``||Logic:Logic||`` section on the left side menu, drag a ``||Logic: Blank and Blank ||`` block and replace the ``||Logic:true||`` block.
+From the ``||Logic:Logic||`` section on the left side menu, drag another ``||Logic:if-then ||`` block and place it inside the ``||Logic:if-then-else||`` block and under the first ``||Logic:if-then ||`` block .
 ```blocks
 
 basic.forever(function () {
-    if (true) {
+    if (false && false) {
         if (true) {
         	
         }
     } else {
-    	
+        if (true) {
+        	
+        }
     }
 })
 ```
 
-## Step 5
+
+
+## Step 6
 From the ``||Logic:Logic||`` section on the left side menu, drag a ``||Logic: Blank and Blank ||`` block and replace the ``||Logic:true||`` block.
 ```blocks
 
